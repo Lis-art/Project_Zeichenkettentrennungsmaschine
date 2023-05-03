@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeichenkettentrennungsmaschine</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Zeichenkettentrennungsmaschine</h1>
+        <form>
+            <label for="zeichenkette">Zu trennende Zeichenkette</label>
+            <input type="text" id="zeichenkette" name="zeichenkette" class="zeichenkette">
+        
+            <label for="searchInput">Zeichenkette für Trennungsposition</label>
+            <input type="text" id="searchInput" name="searchInput" class="searchInput">
+        
+        <div class="Radios">
+            <input type="radio" id="davorTr" name="auswahl" value="davorTr" class="trennen">
+            <label for="davorTr">davor trennen</label>
+
+            <input type="radio" id="danachTr" name="auswahl" value="danachTr" class="trennen">
+            <label for="danachTr">danach trennen</label>
+        </div>
+            <input onclick="satzTrennen(); return false" type="button" value="Trennen" id="btnTrennen">
+        </form>
+
+        <section>
+            <h2>Ausgabe</h2>
+            <div>
+                <h3 class="Vorne">Vorderer Teil</h3>
+                <p class="vordererTeil"></p>
+            
+            
+                <h3 class="Hinten">Hinterer Teil</h3>
+                <p class="hintererTeil"></p>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+
+    <script text="text/javascript" src="./assets/js/main.js" ></script>
+</body>
+</html>

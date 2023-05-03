@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Gruppo;
+  src: url("../font/Gruppo-Regular.ttf");
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 1%;
+  font-family: "Gruppo";
+  -webkit-text-stroke: 2px rgb(41, 41, 246);
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(30deg, rgb(214, 53, 255) 0%, rgb(103, 7, 225) 49%, rgb(7, 225, 180) 100%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gruppo";
+}
+form label {
+  font-size: 2rem;
+  padding: 3%;
+}
+form input {
+  border: 1px black solid;
+  width: 50%;
+  font-family: "Gruppo";
+  font-size: 2rem;
+  padding: 1%;
+  border: 1px solid blue;
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+form .Radios {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 30%;
+}
+form .Radios .trennen {
+  width: 10%;
+}
+form #btnTrennen {
+  padding: 1%;
+  border: 1px solid blue;
+  width: 15%;
+  font-size: 2rem;
+  font-family: "Gruppo";
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+
+section {
+  font-family: "Gruppo";
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section h2 {
+  font-size: 4rem;
+  margin-bottom: 3%;
+  -webkit-text-stroke: 2px rgb(41, 41, 246);
+  color: white;
+}
+section div {
+  font-size: 2.5rem;
+}
+section div .Vorne {
+  padding-top: 4%;
+  text-align: center;
+}
+section div .vordererTeil {
+  padding-top: 4%;
+  text-align: center;
+}
+section div .Hinten {
+  padding-top: 4%;
+  text-align: center;
+}
+section div .hintererTeil {
+  padding-top: 4%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

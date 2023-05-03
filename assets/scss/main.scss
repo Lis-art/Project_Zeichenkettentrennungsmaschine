@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Gruppo;
+    src: url('../font/Gruppo-Regular.ttf');
+}
+
+// general styles
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+// specific styles
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 1%;
+    font-family: 'Gruppo';
+    -webkit-text-stroke: 2px rgb(41, 41, 246) ;
+    color: white ;
+}
+main {
+    min-height: 100vh;
+    background: linear-gradient(30deg, rgba(214,53,255,1) 0%, rgba(103,7,225,1) 49%, rgba(7,225,180,1) 100%);}
+
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gruppo';
+    label {
+        font-size: 2rem;
+        padding: 3%;
+    }
+    input {
+        border: 1px black solid;
+        width: 50%;
+        font-family: 'Gruppo';
+        font-size: 2rem;
+        padding: 1%;
+        border: 1px solid blue;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    .Radios {
+        display: flex;
+        flex-direction: row;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 30%;
+        .trennen {
+            width: 10%;
+        }
+    }
+    #btnTrennen {
+        padding: 1%;
+        border: 1px solid blue;
+        width: 15%;
+        font-size: 2rem;
+        font-family: 'Gruppo';
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+}
+
+section {
+    font-family: 'Gruppo';
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+       h2 {
+        font-size: 4rem;
+        margin-bottom: 3%;
+        -webkit-text-stroke: 2px rgb(41, 41, 246) ;
+        color: white ;
+    }   div {
+        
+        font-size: 2.5rem;
+        .Vorne{
+            padding-top: 4%;
+            text-align: center;
+        }
+        .vordererTeil{
+            padding-top: 4%;
+            text-align: center;
+        }
+        
+        .Hinten{
+            padding-top: 4%;
+            text-align: center;
+        }
+        .hintererTeil{
+            padding-top: 4%;
+            text-align: center;
+        }
+    }  
+}
